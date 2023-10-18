@@ -130,6 +130,11 @@ img {
 
 }
 
+/* stats */
+.stats{
+    padding-top: 100px;
+}
+
 /* Animations */
 
 @keyframes slideInFromLeft {

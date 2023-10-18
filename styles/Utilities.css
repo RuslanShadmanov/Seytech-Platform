@@ -28,7 +28,16 @@
     color: var(--light-color);
 
 }
-  
+  .btn-outline {
+    background-color: transparent;
+    border:1px solid white;
+
+  }
+
+  .btn:hover {
+    transform: scale(0.95);
+  }
+
 .flex {
     display: flex;
     justify-content: center;
@@ -43,4 +52,8 @@
     justify-content: center;
     align-items: center;
     
+}
+
+.grid-3{
+    grid-template-columns: repeat(3,1fr);
 }
