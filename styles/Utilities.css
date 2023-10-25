@@ -57,3 +57,12 @@
 .grid-3{
     grid-template-columns: repeat(3,1fr);
 }
+
+.container grid {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2,1fr);
+}
+.container img {
+  grid-row:1/span 2  ;
+
+}
