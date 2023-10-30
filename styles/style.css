@@ -93,11 +93,11 @@ img {
 
 
 .showcase-text{
-    /* animation: slideInFromLeft 1s ease-in; */
+     animation: slideInFromLeft 1s ease-in; 
 }
 
 .showcase-form {
-    /* animation: slideInFromRight 1s ease-in; */
+    animation: slideInFromRight 1s ease-in; 
     position: relative;
     top:60px;
     height: 350px;
