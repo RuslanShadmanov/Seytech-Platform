@@ -86,3 +86,38 @@ section.cloud {
 .btn-dark{
   background-color: var(--dark-color);
 }
+
+.mt-20{
+  margin-top: 20px;
+}
+
+.languages .grid{
+  grid-template-columns: repeat(7,1fr);
+  
+
+}
+
+.languages h3{
+  text-align: center;
+  font-weight: 300;
+  line-height: 2.2;
+  font-size: 2rem;
+}
+.languages .card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+
+.languages .card {
+  text-align: center;
+  margin: 18px 10px 40px;
+  transition: transform 0.2s ease-in;
+  font-size: 20px;
+  
+}
+
+.languages .card:hover{
+  transform: translateY(-15px);
+  
+}
